@@ -103,3 +103,44 @@ print()
 pi = math.pi
 print('El valor de la variable pi es igual a', pi)
 print('El valor de la variable pi es igual a', -pi)
+
+# OPERADOR PRODUCTO (MULTIPLICACION): *
+print('OPERADOR PRODUCTO (MULTIPLICACION): *')
+
+numero_1 = 7
+numero_2 = 5
+
+producto = numero_1 * numero_2
+print(f'El producto de {numero_1} * {numero_2} es igual a: {producto}')
+
+print()
+
+print('Producto de dos literales:')
+
+producto = 7 * 5
+print(f'El producto de {7} * {5} es igual a: {producto}')
+
+print()
+
+print('Producto de una variable por un literal:')
+
+numero_1 = 8
+producto = numero_1 * 5
+print(f'El producto de {numero_1} * {5} es igual a: {producto}')
+
+print()
+
+print('Producto de varios valores:')
+
+producto = numero_1 * 5 * 9 * numero_2
+print(f'El producto es igual a: {producto}')
+
+print()
+
+print('Producto de valores de punto flotante o reales:')
+
+numero_1 = 8.25
+numero_1 = 7.236
+producto = numero_1 * 5.23 * 9.14 * numero_2
+print(f'El producto es igual a: {producto}')
+
