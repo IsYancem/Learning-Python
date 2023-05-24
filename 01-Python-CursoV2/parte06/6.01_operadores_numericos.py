@@ -144,3 +144,151 @@ numero_1 = 7.236
 producto = numero_1 * 5.23 * 9.14 * numero_2
 print(f'El producto es igual a: {producto}')
 
+# Operador de división (decimales): /
+print('Operador de división (decimales): /')
+
+numero_1 = 1
+numero_2 = 2
+
+division = numero_1 / numero_2
+print('La división de {} entre {} es igual a {}.'.format(numero_1, numero_2, division))
+
+print()
+
+print('División entre dos literales numéricas enteras:')
+
+division = 1 / 2
+print('La división de {} entre {} es igual a {}.'.format(1, 2, division))
+
+print()
+
+print('División entre una variable y una literal entera:')
+
+division = numero_1 / 2
+print('La división de {} entre {} es igual a {}.'.format(numero_1, 2, division))
+
+print()
+
+print('Expresión de división con múltiples operandos:')
+
+division = 8 / 4 / 3 / 2
+
+print('La expresión `8 / 4 / 3 / 2` es igual a', division)
+
+print()
+
+# División entre variables y literales numéricas reales (punto flotante):
+
+print('División entre variables y literales numéricas reales (punto flotante):')
+
+numero_1 = 0.5
+numero_2 = 1.73
+
+division = numero_1 / numero_2
+print('La división de {} y {} es igual a {}.'.format(numero_1, numero_2, division))
+
+print()
+
+print('División de una variable y literal de punto flotante:')
+
+division = numero_1 / 1.73
+print('La división de {} y {} es igual a {}.'.format(numero_1, 1.73, division))
+
+print()
+
+print('División de literales de punto flotante (reales):')
+
+division = 0.5 / 1.73
+print('La división de {} y {} es igual a {}.'.format(0.5, 1.73, division))
+
+print()
+
+print('Múltiples diviones en una expresión:')
+
+division = 0.5 / 1.73 / 4.5 / 7.0
+print('La operación `0.5 / 1.73 / 4.5 / 7.0` es igual a:', division)
+
+print()
+
+# División entre cero:
+print('División entre cero:')
+
+numero_1 = 5
+numero_2 = 0
+
+
+print('Solución #1:')
+
+if numero_2 != 0:
+    division = numero_1 / numero_2
+    print('La división de {} y {} es igual a {}.'.format(numero_1, numero_2, division))
+else:
+    print('MENSAJE: La división entre cero no está permitida.')
+
+print()
+
+print('Solución #2:')
+
+try:
+    division = numero_1 / numero_2
+    print('La división de {} y {} es igual a {}.'.format(numero_1, numero_2, division))
+except ZeroDivisionError as e:
+    print('Error:', e)
+
+print()
+
+# Operador resto (residuo, módulo): %
+
+# 5 // 2 = 2
+# 5 % 2 = 1
+
+numero_1 = 5
+numero_2 = 2
+
+division = numero_1 // numero_2
+resto = numero_1 % numero_2
+
+print(f'La división entera de {numero_1} y {numero_2} es igual a {division}.')
+print(f'El resto de la división entera de {numero_1} y {numero_2} es igual a {resto}.')
+
+print()
+
+print('¿Es número par o impar?')
+
+if numero_1 % 2 == 0:
+    print('El valor {} es par.'.format(numero_1))
+else:
+    print('El valor {} es impar.'.format(numero_1))
+
+print()
+
+# Operador de división entera: //
+
+numero_1 = 5
+numero_2 = 2
+
+division = numero_1 / numero_2
+
+print(f'División entre {numero_1} y {numero_2} es igual a {division}.')
+
+print()
+
+division_entero = numero_1 // numero_2
+print(f'División entera entre {numero_1} y {numero_2} es igual a {division_entero}.')
+
+print()
+
+# Operador de potencia: **
+print('Operador de potencia: **')
+
+base = 2
+exponente = 3
+
+potencia = base ** exponente
+
+print(f'La potencia de {base}^{exponente} es igual a {potencia}.')
+
+print()
+
+potencia = pow(base, exponente)
+print(f'La potencia de {base}^{exponente} es igual a {potencia}.')
