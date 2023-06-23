@@ -72,3 +72,28 @@ resutlado = list(filter(filtro, numeros))
 print('Contenido de la variable numeros:', resultado)
 print('Cantidad de elementos en la lista numeros:', len(resultado))
 
+print()
+
+# Utilizar la funcion map() para crear un mapeo (mapping) del contenido de una lista (iterable)
+def elevar_cuadrado(lista):
+    cuadrados = []
+
+    for n in lista:
+        cuadrados.append(n ** 2)
+
+    return cuadrados
+
+resultado = elevar_cuadrado(numeros)
+print('Contenido de la variable numeros:', numeros)
+print('Contenido de la lista numeros al cuadrado:', resultado)
+
+print()
+
+resultado = [n ** 2 for n in numeros]
+print('Contenido de la lista numeros al cuadrado:', resultado)
+
+print()
+
+resultado = list(map(lambda n: n ** 2, numeros))
+print('Contenido de la lista numeros al cuadrado:', resultado)
+

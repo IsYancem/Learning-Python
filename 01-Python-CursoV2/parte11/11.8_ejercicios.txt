@@ -1,0 +1,7 @@
+Funciones - Ejercicios:
+
+Ejercicio 11.1: Crear una funcion para obtener el mayor de tres numeros.
+
+Ejercicio 11.2: Crear una funcion para sumar todos los numeros en una lista o  tupla.
+
+Ejercicio: 11.3 Crear una funcion para multiplicar todos los numeros en una lista o tupla.
