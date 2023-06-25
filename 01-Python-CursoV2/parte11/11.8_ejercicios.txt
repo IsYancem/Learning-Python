@@ -5,3 +5,17 @@ Ejercicio 11.1: Crear una funcion para obtener el mayor de tres numeros.
 Ejercicio 11.2: Crear una funcion para sumar todos los numeros en una lista o  tupla.
 
 Ejercicio: 11.3 Crear una funcion para multiplicar todos los numeros en una lista o tupla.
+
+Ejercicio: 11.4 Crear una funcion para invertir el contenido de una cadena de caracteres.
+
+Ejercicio: 11.5 A traves de una funcion validar si un numero se halla en un rango.
+
+Ejercicio: 11.6 Usar una funcion para contar minusculas y mayusculas en una cadena.
+
+Ejercicio 11.7: Tomar una lista de numeros e identificar los numeros unicos.
+
+Ejecicios 11.8: Crear una funcion recursiva para sumar los numeros de una lista.
+
+Ejercicio 11.9: Crera una funcion recursiva para comprobar si una cadena es palidromo.
+
+Ejercicio 11.10: Crear una funcion recursiva para dividir dos numeros.
